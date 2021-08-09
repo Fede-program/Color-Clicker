@@ -1,0 +1,172 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pexels-henry-&-co-1939485.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    text-align: left;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 255, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5));
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 255, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5));
+    bottom: 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+button {
+    margin: 2.5%;
+    padding: 10px 10px;
+    background-color: #555;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+}
+
+#button1 {
+    color: red;
+}
+
+#button2 {
+    color: orange;
+}
+
+#button3 {
+    color: yellow;
+}
+
+#button4 {
+    color: green;
+}
+
+#button5 {
+    color: cyan;
+}
+
+#button6 {
+    color: blue;
+}
+
+#button7 {
+    color: purple;
+}
+
+#button1:hover {
+    color: black;
+    background-color: red;
+}
+
+#button2:hover {
+    color: black;
+    background-color: orange;
+}
+
+#button3:hover {
+    color: black;
+    background-color: yellow;
+}
+
+#button4:hover {
+    color: black;
+    background-color: green;
+}
+
+#button5:hover {
+    color: black;
+    background-color: cyan;
+}
+
+#button6:hover {
+    color: black;
+    background-color: blue;
+}
+
+#button7:hover {
+    color: black;
+    background-color: purple;
+}
+
+#red {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+    margin-top: 20px;
+}
+
+#orange {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+    margin-top: 20px;
+}
+
+#yellow {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+#green {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    margin-top: 20px;
+}
+
+#cyan {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: cyan;
+    margin-top: 20px;
+}
+
+#blue {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+#purple {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: purple;
+    margin-top: 20px;
+}
+
+.colorBoxes {
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
+}
